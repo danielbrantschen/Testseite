@@ -194,6 +194,25 @@ body {
     font-weight: bold;
 }
 
+.about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
 .placeholder-image {
     background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
     border: 2px dashed #667eea;
